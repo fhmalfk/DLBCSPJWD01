@@ -1,0 +1,103 @@
+/* Set hight for html-content */
+html{
+height: 100%;
+}
+/* the body element should fill up 100% of the available space */
+body { 
+margin: auto;
+height: 100%;
+} 
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #833;
+  overflow: hidden;
+  margin: auto;
+  z-index: 6;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(209, 164, 27);
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #071182;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+/* create a sticky header that is always displayed, even if you scroll the page down */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+    }
+/* Define the footer attributes */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #833;
+  color: white;
+  text-align: center;
+}
+/* set the table of the footer to use up 100% and define the space between its elements automatically */
+#footerID{
+  margin: auto;
+  width: 100%;
+}
+/* set the welcome page image */
+#img{
+  max-width: 100%;
+  vertical-align:text-bottom
+}
+/* style the text field of the welcome page */
+.hello{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right:5%;
+}
+/* style the header of the welcome page */
+#Welc{
+  text-align: center;
+}
+/* style the changing element banner in the top left corner */
+#changing{
+  color: rgb(125, 209, 247);
+  font-size: 30px;
+  position: relative;
+  left: 10px;
+}
+/* Prepare the text are for being copied */
+#innerText{
+  white-space: pre-line;
+  white-space: pre-wrap;
+}
+/* hide the output before the mail page gets redirected to the cart.php page again */
+
+#mail{
+  display: none;
+}

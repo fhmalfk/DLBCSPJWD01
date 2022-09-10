@@ -1,0 +1,58 @@
+/* This css serves only the store.php and cart.php page */
+
+/* set size for pics at store page*/
+.storePics{
+    width: 200px; 
+    height: 200px;
+}
+/* Set header size */
+.header2 {
+    width: 100%;
+    text-align:center;
+}
+/* center the text of the tabledata elements and prevent an overflowing */
+td {
+    height: 80px;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+  }
+/* set the tbale with on the cart.php page */
+.tableWidth{
+width: 40%;
+margin: auto;
+}
+/* center the content and set it to the width its parent element */
+.vertical-center {
+    width: 40%;;
+    margin: auto;
+    text-align: center;
+  }
+  /* double underline the endprice */
+  .underline{
+    border-bottom: 3px double;
+  }
+/* define the order button */
+#orderButton{
+    height: 30px;
+    background-color: rgb(43, 244, 147);
+    width: 120px;
+}
+/* define the update button */
+#updateButton{
+    height: 30px;
+    background-color: rgb(41, 178, 247);
+    margin-right: 10px;;
+    width: 120px;
+}
+/* set a hover effect */
+#orderButton:hover
+{
+  background-color: rgb(27, 115, 62);
+}
+/* set a hover effect */
+#updateButton:hover
+{
+  background-color: rgb(14, 51, 114);
+}
+
