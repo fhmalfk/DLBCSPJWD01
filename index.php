@@ -27,15 +27,16 @@
 <!-- Set the welcome text -->
 <div class="hello">
 <h1 id="Welc">Welcome to our shop!</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <p>We offer you the finest deals on computer hardware and peripherals.</p>
+    <p>From the newest graphiccards over top of the line CPUs, we are sure you will find something to your liking. If you have any questions regarding our
+        offers or deals, dont hestitate to send us an email, we will be happy to hear from you! Please be aware that you need to have a locally installed emailclient
+        to send us an order. Since we are still a small business in development we currently havent deployed our own mailingservers, if our business continoues
+        to grow as expected, we will implement them very soon.
+    </p>
+    <p>Have fun shopping and if you are happy with our service, please leave a review, if you are not satisfied please send us an email and we surely will
+        find a way to solve all problems. 
+    </p>
+
     </div>
 <!-- Define our picture for the welcome page -->
     <div class="welcomeImage">
