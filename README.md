@@ -25,4 +25,4 @@ Please find the installation instructions below:
 
 9)Now our webserver should be reachable and present the index.php file as the startpage for browsercalls. Please open in a webbrowser of your choice http://localhost/
 
-10)Now you can start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
+10)You can now start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
