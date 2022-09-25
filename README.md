@@ -19,10 +19,12 @@ Please find the installation instructions below:
 
 6)Click on "New" to open the configuration window for a new database
 
-7)Click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
+7)Enter "webshop" as the database name, choose the utf8mb4_general_ci as encoding and click "create"
 
-8)Open the root folder of your apache webserver C:\xampp\htdocs and copy the css, javascript and pics folder from the github repository additionally the cart.php, index.php, mail.php, store.php files to it. 
+8)Now switch to the newly created database through clicking on it in the left menu. Here click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
 
-9)Now our webserver should be reachable and present the index.php file as the startpage for browsercalls. Please open in a webbrowser of your choice http://localhost/
+9)Open the root folder of your apache webserver C:\xampp\htdocs and delete all files and folders in it, then copy the css, javascript and pics folder from the github repository additionally the cart.php, index.php, mail.php, store.php files to it. 
 
-10)You can now start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
+10)Now our webserver should be reachable and present the index.php file as the startpage for browsercalls. Please open in a webbrowser of your choice http://localhost/
+
+11)You can now start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
