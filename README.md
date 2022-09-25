@@ -19,12 +19,14 @@ Please find the installation instructions below:
 
 6)Click on "New" to open the configuration window for a new database
 
-7)Enter "webshop" as the database name, choose the utf8mb4_general_ci as encoding and click "create"
+7)Enter "webshop" as the database name, choose the utf8mb4_general_ci as encoding and click "create". 
 
-8)Now switch to the newly created database through clicking on it in the left menu. Here click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
+8)Next we must create the user predefined in our php files to access the database. Therefore activate the database "webshop" in the left menutree. Activate the category "prviliges". Click on "Add user Account" to create a new user. Define "Hausmann" as the new username, and "password" as the password. Now click create at the bottom of the page, our new user account has now full global access to the database. 
 
-9)Open the root folder of your apache webserver C:\xampp\htdocs and delete all files and folders in it, then copy the css, javascript and pics folder from the github repository additionally the cart.php, index.php, mail.php, store.php files to it. 
+9)Now switch to the newly created database through clicking on it in the left menu. Here click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
 
-10)Now our webserver should be reachable and present the index.php file as the startpage for browsercalls. Please open in a webbrowser of your choice http://localhost/
+10)Open the root folder of your apache webserver C:\xampp\htdocs and delete all files and folders in it, then copy the css, javascript and pics folder from the github repository additionally the cart.php, index.php, mail.php, store.php files to it. 
 
-11)You can now start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
+11)Now our webserver should be reachable and present the index.php file as the startpage for browsercalls. Please open in a webbrowser of your choice http://localhost/
+
+12)You can now start browsing the website and shop in the webstore, when you filled up your shoppingbasket, please move to the checkout page, here you can update all quantities or trigger an order via email. 
