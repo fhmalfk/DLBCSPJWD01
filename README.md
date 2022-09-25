@@ -2,7 +2,7 @@
 
 Hello Sandra, 
 
-the XAMPP installation file is 164MB big and cant be uploaded to GitHub, they only allow files up to 25MB, so i could only upload it to pebblepad, in addition i added the official download link in the install instructions.
+unfortunately the XAMPP installation file is 164MB big and cant be uploaded to GitHub, they only allow files up to 25MB, so i could only upload it to pebblepad, in addition i added the official download link in the install instructions.
 
 Please find the installation instructions below: 
 
