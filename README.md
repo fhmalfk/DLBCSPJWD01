@@ -9,21 +9,21 @@ Please find the installation instructions below:
 
 1)Download XAMPP (https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true) or from the pebblepad submission. 
 
-2)Start the XAMPP installer and add following components: Apache, MySQL, PHP, phpMyAdmin
+2)Start the XAMPP installer and add following components: Apache, MySQL, PHP, phpMyAdmin.
 
-3)Open the XAMPP control panel and start: the Apache and MySQL modules
+3)Open the XAMPP control panel and start: the Apache and MySQL modules.
 
-4)Download the SQL Dump "webshop.sql" from the GitHub repository 
+4)Download the SQL Dump "webshop.sql" from the GitHub repository.
 
 5)Open http://localhost/phpmyadmin/index.php to configure the MySQL-database, this link will open your phpMyadmin to configure your MySQL database. 
 
-6)Click on "New" to open the configuration window for a new database
+6)Click on "New" to open the configuration window for a new database.
 
 7)Enter "webshop" as the database name, choose the utf8mb4_general_ci as encoding and click "create". 
 
-8)Next we must create the user predefined in our php files to access the database. Therefore activate the database "webshop" in the left menutree. Activate the category "prviliges". Click on "Add user Account" to create a new user. Define "Hausmann" as the new username, and "password" as the password. Now click create at the bottom of the page, our new user account has now full global access to the database. 
+8)Now switch to the newly created database through clicking on it in the left menu. Here click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
 
-9)Now switch to the newly created database through clicking on it in the left menu. Here click import and choose the previously downloaded file "webshop.sql", this way we import our dumped database and can work with already existing datasets. 
+9)Next we must create the user predefined in our php files to access the database. Therefore activate the database "webshop" in the left menutree. Activate the category "prviliges". Click on "Add user Account" to create a new user. Define "Hausmann" as the new username, and "password" as the password. Now click create at the bottom of the page, our new user account has now full global access to the database. 
 
 10)Open the root folder of your apache webserver C:\xampp\htdocs and delete all files and folders in it, then copy the css, javascript and pics folder from the github repository additionally the cart.php, index.php, mail.php, store.php files to it. 
 
